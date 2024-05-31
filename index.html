@@ -17,6 +17,27 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+
+  <script>
+    function SubForm (){
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/NHMoMKWGwoeKn4Tu/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+					alert("Sent! I'll be in touch shortly")
+				},
+				error: function(){
+					alert("Error: Message not sent")
+				}
+			});
+		}
+  </script>
 </head>
 
 <body>
@@ -39,8 +60,8 @@
                       </div>
                     </div>
                 </li>
-                <li><div class="nav-item"><a href="#">Pricing</a></div></li>
-                <li><div class="nav-item"><a href="#">Contact</a></div></li>
+                <li><div class="nav-item"><a href="pricing.html">Pricing</a></div></li>
+                <li><div class="nav-item"><a href="index.html#contact">Contact</a></div></li>
             </ul>
         </nav>
     </header></div>
@@ -64,14 +85,53 @@
     <section class="artworks">
       <article class="artwork">
         <div class="artwork-piece">
-          <figure> <img src="images/home_loveshot.jpg" alt="Kate on film"></figure>
+          <figure> <img src="images/home_loveshot.jpg" alt="Lexee & Max"></figure>
         </div>
         <div class="artwork-description">
           <h2 class="artwork-title">Love Collection</h2>
           <p class="artwork-text">Have some of the most important moments of your life captured in professional quality with a lowest-price guarantee!</p>
-          <a class="see-more" href="#">Learn more</a> </div>
+          <a class="see-more" href="pricing.html">Learn more</a> </div>
       </article>
     </section>
+	<section class="contact" id="contact">
+		<h3>Get in touch!</h3>
+		<div class="contact-Buttons">
+			<ul class="contact-info">
+        <li>
+            <a href="mailto:dericNewton77@gmail.com">
+                <img class="social-default" src="images/contact-Icons (1).png" alt="email">
+                <img class="social-hover" src="images/contact-Icons (4).png" alt="email-hover">
+            </a>
+        </li>
+        <li>
+            <a href="tel:8018097227">
+                <img class="social-default" src="images/contact-Icons.png" alt="number">
+                <img class="social-hover" src="images/contact-Icons (2).png" alt="number-hover">
+            </a>
+        </li>
+    </ul>
+		</div>
+		<!--<form id="myForm">
+			<ul>
+    			<li>
+     			 	<!--   action="send_email.php" method="post"   <label for="name">Name:</label>
+      				<input type="text" id="name" name="user_name" placeholder="Name" required />
+    			</li>
+    			<li>
+      				<!--<label for="mail">Email:</label>
+			        <input type="email" id="mail" name="user_email" placeholder="Email" required />
+    			</li>
+    			<li>
+      				<!--<label for="msg">Tell me about your needs!</label>
+      				<textarea id="msg" name="user_message" placeholder="Tell me about your needs!" required></textarea>
+    			</li>
+				<!--<li class="button">
+  					<button onclick="SubForm()">Send</button>
+				</li>
+  			</ul>
+        <button onclick="SubForm()">Submit</button>
+		</form>-->
+	</section>
 	<!-- InstanceEndEditable -->
     <!-- Site Footer -->
     <footer>

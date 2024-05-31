@@ -177,35 +177,6 @@ li:hover ul.dropup.hov li:nth-child(5) {
   background-size: 100%;
 }
 
-.wedding_hero {
-	position: static;
-	height: 32vw;
-	background-image: url("images/weddings_hero.jpg");
-	background-size: 100%;
-}
-
-.wed-gallery_hero {
-	position: static;
-	height: 49vw;
-	background-image: url("images/lex-max/hero_LEX+MAX.jpg");
-	background-size: 100%;
-}
-
-.wed-gallery_hero img {
-	height: 50px;
-	width: auto;
-}
-
-.wed-gallery_hero a {
-	letter-spacing: .3em;
-	text-decoration: none;
-	color: white;
-}
-
-.wed-gallery_hero a:hover {
-	color: #ABABAB;
-}
-
 .hero-content {
   font-family: 'acumin-pro-extra-condensed', sans-serif;
   color: #fff;
@@ -216,6 +187,100 @@ li:hover ul.dropup.hov li:nth-child(5) {
   bottom: 0;
   width: 100%;
   text-align: center;
+}
+
+h1 {
+  margin-bottom: 1.5%;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0,.05);
+  letter-spacing: .85em;
+  margin-left: .7em;
+  font-size: 8.5vw;
+}
+
+h2 {
+	font-weight: 100;
+	font-size: 2em;
+    line-height: 2.2;
+	margin-bottom: -.35em;
+	padding-top: 13%;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 2.75;
+  letter-spacing: .35em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
+}
+
+.price_hero {
+	position: static;
+	height: 49vw;
+	background-image: url("images/pricing_hero.jpg");
+	background-size: 100%;
+}
+
+.price_hero-content {
+  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  color: #fff;
+  position: absolute;
+  z-index: 20000;
+  padding-top: 0em;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.price_hero-content h1 {
+  margin-bottom: 1.5%;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0,.05);
+  letter-spacing: .55em;
+  margin-left: .5em;
+  font-size: 8.5vw;
+}
+
+.price_hero-content h2 {
+	font-weight: 100;
+	font-size: 2em;
+    line-height: 2.2;
+	margin-bottom: -.35em;
+	padding-top: 11%;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
+}
+
+.price_hero-content h3 {
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 2.75;
+  letter-spacing: .43em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
+	margin-bottom: 3.5em;
+	
+}.price_hero a {
+	letter-spacing: .3em;
+	text-decoration: none;
+	color: white;
+}
+
+.price_hero a:hover {
+	color: #ABABAB;
+}
+
+.wedding_hero {
+	position: static;
+	height: 49vw;
+	background-image: url("images/weddings_hero.jpg");
+	background-size: 100%;
 }
 
 .wedding_hero-content {
@@ -230,6 +295,70 @@ li:hover ul.dropup.hov li:nth-child(5) {
   text-align: center;
 }
 
+.wedding_hero-content h2 {
+	font-weight: 100;
+	font-size: 2em;
+    line-height: 2.2;
+	margin-bottom: -.35em;
+	padding-top: 11%;
+	letter-spacing: .3em;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
+}
+
+.wedding_hero-content h1 {
+  margin-bottom: 1.5%;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0,.05);
+  letter-spacing: .5em;
+  margin-left: .7em;
+  font-size: 8.5vw;
+}
+
+.wedding_hero-content h3 {
+  font-size: 1.3em;
+  font-weight: 100;
+  line-height: 2.75;
+  letter-spacing: .43em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 8px rgba(0, 0, 0,.75);
+	padding-top: .85em;
+	margin-bottom: 3.5em;
+  
+}
+
+.wedding_hero a {
+	letter-spacing: .3em;
+	text-decoration: none;
+	color: white;
+}
+
+.wedding_hero a:hover {
+	color: #ABABAB;
+}
+
+.lex-gallery_hero {
+	position: static;
+	height: 49vw;
+	background-image: url("images/lex-max/hero_LEX+MAX.jpg");
+	background-size: 100%;
+}
+
+.lex-gallery_hero img {
+	height: 50px;
+	width: auto;
+}
+
+.lex-gallery_hero a {
+	letter-spacing: .3em;
+	text-decoration: none;
+	color: white;
+}
+
+.lex-gallery_hero a:hover {
+	color: #ABABAB;
+}
+
 .wed-gallery_hero-content {
   font-family: 'acumin-pro-extra-condensed', sans-serif;
   color: #fff;
@@ -242,46 +371,6 @@ li:hover ul.dropup.hov li:nth-child(5) {
   text-align: center;
 }
 
-h2 {
-	font-weight: 100;
-	font-size: 2em;
-    line-height: 2.2;
-	margin-bottom: -.35em;
-	padding-top: 13%;
-	letter-spacing: .3em;
-	text-transform: uppercase;
-	text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
-}
-
-.wedding_hero-content h2 {
-	font-weight: 100;
-	font-size: 2em;
-    line-height: 2.2;
-	margin-bottom: -.35em;
-	padding-top: 11%;
-	letter-spacing: .3em;
-	text-transform: uppercase;
-	text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
-}
-
-h1 {
-  margin-bottom: 1.5%;
-  text-transform: uppercase;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0,.05);
-  letter-spacing: .85em;
-  margin-left: .7em;
-  font-size: 8.5vw;
-}
-
-.wedding_hero-content h1 {
-  margin-bottom: 1.5%;
-  text-transform: uppercase;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0,.05);
-  letter-spacing: .5em;
-  margin-left: .7em;
-  font-size: 8.5vw;
-}
-
 .wed-gallery_hero-content h1 {
   margin-bottom: 1.5%;
   text-transform: uppercase;
@@ -290,15 +379,6 @@ h1 {
   margin-left: .7em;
   font-size: 6.5vw;
 	padding-top: 13%;
-}
-
-h3 {
-  font-size: 1.5em;
-  font-weight: 100;
-  line-height: 2.75;
-  letter-spacing: .35em;
-  text-transform: uppercase;
-  text-shadow: 0px 0px 8px rgba(0, 0, 0,.2);
 }
 
 .wed-gallery_hero-content h3 {
@@ -407,6 +487,145 @@ h3 {
   border-bottom: 1px solid white;
 }
 
+/*  PRICING BODY  */
+
+.price_int {
+  position: relative;
+  color: #1b1b1b;
+  background: #f6f6f6;
+  padding: 4.5em 3em 4.5em;
+}
+.price_int-tex {
+  position: relative;
+}
+.price_int p {
+  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  font-size: 1.25vw;
+  line-height: 1.8;
+  position: relative;
+  z-index: 200;
+  text-align: center;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+}
+
+.price_int a {
+	color: #1b1b1b;
+	text-decoration: none;
+	border-bottom: 1px solid #1b1b1b;
+}
+
+.price_int a:hover {
+	color: #7C7C7C;
+	border-bottom: 1px solid #7C7C7C;
+}
+
+.sec-left {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.art-left {
+  display: flex;
+}
+.art-left .pie-left {
+  padding: 4% 0 4% 20%;
+  float: right;
+  background-image: linear-gradient( 135deg, #f6f6f6 0%, #c2c2c2 100%);
+  width: 66%;
+}
+.art-left .pie-left figure {
+  position: relative;
+}
+.art-left .pie-left figure img {
+  position: relative;
+  z-index: 100;
+}
+.art-left .desc-left {
+  background: #1b1b1b;
+  color: #fff;
+  width: 34%;
+  padding: 11.25em 1em 11.25em 5em;
+}
+.tit-left {
+  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  font-size: 2.5em;
+  font-weight: 100;
+  padding: 1em 0 0 0;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  max-width: 9em;
+  margin-bottom: .35em;
+}
+.tex-left {
+  font-size: 1.1em;
+  line-height: 1.9;
+	letter-spacing: .08em;
+  /*opacity: .8;*/
+  max-width: 20em;
+}
+.sec-right {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.art-right {
+  display: flex;
+}
+.art-right .pie-right {
+  padding: 4% 20% 4% 0%;
+  float: left;
+  background-image: linear-gradient( 135deg, #f6f6f6 0%, #c2c2c2 100%);
+  width: 66%;
+}
+.art-right .pie-right figure {
+  position: relative;
+}
+.art-right .pie-right figure img {
+  position: relative;
+  z-index: 100;
+}
+.art-right .desc-right {
+  background: #1b1b1b;
+  color: #fff;
+  width: 34%;
+  padding: 11.25em 1em 11.25em 5em;
+}
+.tit-right {
+  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  font-size: 2.5em;
+  font-weight: 100;
+  padding: 1em 0 0 0;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  line-height: 1.5;
+  max-width: 9em;
+  margin-bottom: .35em;
+}
+.tex-right {
+  font-size: 1.1em;
+  line-height: 1.9;
+	letter-spacing: .08em;
+  /*opacity: .8;*/
+  max-width: 20em;
+}
+
+
+.book-now_pricing {
+  font-size: 1em;
+  display: inline-block;
+  margin-top: 3em;
+  padding: 0 0 .4em 0;
+  transition: all .3s;
+  text-decoration: none;
+  color: white;
+}
+.book-now_pricing:hover {
+  border-bottom: 1px solid white;
+}
+
+
 /*  BOX CONTAINERS  */
 
 .wedding_img-description {
@@ -416,21 +635,23 @@ h3 {
   left: 0;
   right: 0;
   background: rgba(10, 10, 10, 0.72);
-	border-radius: 15px;
+	border-radius: 8px;
   color: #fff;
   visibility: hidden;
   opacity: 0;
 	
-  font-family: "Playfair Display", serif;
+  /*font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 2em;
-  /*font-family: 'acumin-pro-extra-condensed', sans-serif;
   font-size: 2em;*/
+  font-family: 'acumin-pro-extra-condensed', sans-serif;
+  font-size: 1.1em;
+	text-transform: uppercase;
+	letter-spacing: .25em;
 	
   text-align: center;
-  padding-top: 43%;
+  padding-top: 48%;
 
   transition: opacity .2s, visibility .2s;
 }
@@ -461,7 +682,7 @@ h3 {
 	padding-bottom: 1%;
 	height: 100%;
 	width: 100%;
-	border-radius: 15px;
+	border-radius: 8px;
 }
 
 /*  FOOTER  */
@@ -582,6 +803,125 @@ footer {
 .fullGalButton a:hover {
 	border-bottom: 1px solid #838383;
 	color: #838383;
+}
+
+/*  FORMS  */
+
+section.contact{
+	text-align: center;
+	/*margin-bottom: 3vw;*/
+    background-image: linear-gradient( -135deg, #f6f6f6 0%, #cfcfcf 100%);
+	padding-top: 2.5vw;
+}
+
+.contact h3 {
+  font-size: 1.5em;
+  font-weight: 100;
+  line-height: 2.75;
+  letter-spacing: .35em;
+  text-transform: uppercase;
+  color: #1b1b1b;
+}
+
+
+
+.contact-info {
+  display: block;
+  width: 100%;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 2vw;
+}
+.contact-info li {
+  display: inline-block;
+  margin: 0 1.2em;
+}
+.contact-info li a {
+  line-height: 3.5em;
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  text-align: center;
+  border: 2px solid #1b1b1b;
+  border-radius: 50%;
+}
+.contact-info li a:hover {
+  border-color: #fff;
+  background: #fff;
+}
+.contact-info li a img {
+  width: auto;
+  height: 1.75em;
+}
+.contact-info li a .social-hover {
+  display: none;
+}
+.contact-info li a:hover .social-default {
+  display: none;
+}
+.contact-info li a:hover .social-hover {
+  display: inline;
+}
+
+
+
+form {
+  display: inline-block;
+  /* Form outline */
+  padding: 1em;
+  /*border: 1px solid #ccc;
+  border-radius: 1em;*/
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  min-width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+  /* Match form field borders*/ 
+  border: none;
+}
+
+input:focus, textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #B1B1B1;
+}
+
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  /*padding-left: 90px;  same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields 
+  margin-left: 0.5em;*/
 }
 
 /*  FONTS  */
