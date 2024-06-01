@@ -494,6 +494,7 @@ h3 {
   color: #1b1b1b;
   background: #f6f6f6;
   padding: 4.5em 3em 4.5em;
+	z-index: 30000;
 }
 .price_int-tex {
   position: relative;
@@ -524,6 +525,8 @@ h3 {
   position: relative;
   width: 100%;
   overflow: hidden;
+	margin: 1%;
+	z-index: 40000;
 }
 .art-left {
   display: flex;
@@ -532,7 +535,7 @@ h3 {
   padding: 4% 0 4% 20%;
   float: right;
   background-image: linear-gradient( 135deg, #f6f6f6 0%, #c2c2c2 100%);
-  width: 66%;
+  width: 65%;
 }
 .art-left .pie-left figure {
   position: relative;
@@ -544,7 +547,7 @@ h3 {
 .art-left .desc-left {
   background: #1b1b1b;
   color: #fff;
-  width: 34%;
+  width: 33%;
   padding: 11.25em 1em 11.25em 5em;
 }
 .tit-left {
@@ -569,6 +572,8 @@ h3 {
   position: relative;
   width: 100%;
   overflow: hidden;
+	margin: 1%;
+	z-index: 40000;
 }
 .art-right {
   display: flex;
@@ -577,7 +582,7 @@ h3 {
   padding: 4% 20% 4% 0%;
   float: left;
   background-image: linear-gradient( 135deg, #f6f6f6 0%, #c2c2c2 100%);
-  width: 66%;
+  width: 65%;
 }
 .art-right .pie-right figure {
   position: relative;
@@ -589,7 +594,7 @@ h3 {
 .art-right .desc-right {
   background: #1b1b1b;
   color: #fff;
-  width: 34%;
+  width: 33%;
   padding: 11.25em 1em 11.25em 5em;
 }
 .tit-right {
@@ -769,7 +774,9 @@ footer {
     display: flex;
     flex-wrap: wrap;
 	justify-content: space-around;
-    margin: 40px 20px 5% 20px;
+    margin: 0 20px;
+	padding-top: 40px;
+	padding-bottom: 5%;
 }
 .wed-gallery {
 	background-image: url("images/wedgallery_bg.png"), linear-gradient( -45deg, #fad0c615 0%, #da9d8515 100%);
@@ -787,8 +794,10 @@ footer {
 }
 
 .wed-gallery .fullGalButton {
-	margin: 40px 20px 8% 20px;
+	margin: 0px 20px;
 	text-align: center;
+	padding-top: 0;
+	padding-bottom: 8%;
 }
 
 .fullGalButton a {
