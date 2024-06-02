@@ -844,6 +844,7 @@ section.contact{
 	/*margin-bottom: 3vw;*/
     background-image: linear-gradient( -135deg, #f6f6f6 0%, #cfcfcf 100%);
 	padding-top: 2.5vw;
+	position: relative;
 	z-index: 50000;
 }
 
